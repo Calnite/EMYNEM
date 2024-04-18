@@ -1,29 +1,9 @@
-# emynem vue
+# EMYNEM STATIC FRONTEND PROTOTYPE
 
-This template should help get you started developing with Vue 3 in Vite.
+LINKS.
 
-## Recommended IDE Setup
+-- [DOKUMENTATION]([https://code.visualstudio.com/](https://calnite.notion.site/STUDIO-UX-WEB-EMYNEM-0741d384fc84444c831b88ce713352b5?pvs=4)) 
+-- [MIRO]([https://marketplace.visualstudio.com/items?itemName=Vue.volar](https://miro.com/app/board/uXjVO53ecl0=/))
+-- [PITCH](https://pitch.com/v/zwischenprsentation-4vx235)
+-- [SCHLUSSPRÄSENTATION](https://app.pitch.com/app/presentation/8fb6f7fe-a34a-428d-9f88-061c846fde90/0836701d-9a0c-4523-a811-f2012a0992e3)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
