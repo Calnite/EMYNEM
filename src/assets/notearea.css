@@ -1,0 +1,107 @@
+/***************** MENU *****************/
+
+.sidebar,.topbar {
+    position: fixed;
+    top:0;
+}
+
+.topbar{
+    z-index: 200;
+}
+
+.sidebar{
+    min-height:100vh;
+    z-index: 100;
+    padding-top:100px!important;
+}
+
+.sidebar-menu {
+    position:fixed;
+    left:76px;
+    min-width:200px;
+    padding-top:100px!important;
+    z-index: 90;
+}
+
+#collapseWidthExample {
+    min-width:200px;
+    min-height:80vh;
+    background:#FAFAFA;
+    border-radius: 0 20px 20px 0;
+}
+
+.nav-item {
+    padding:0;
+}
+
+.nav-link {
+    color:#666;
+}
+
+
+.nav-link.active, .nav-link:hover {
+    color:#5F5BFF;
+}
+
+
+.sidebtn {
+    display:flex;
+    flex-wrap: nowrap;
+    height:44px;
+    width:44px;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    color: #fff !important;;
+    font-weight: 700;
+    border:2px solid #fff;
+}
+
+
+/***************** WORKSPACE *****************/
+
+.offcanvas {
+    --bs-offcanvas-width: 500px;
+}
+
+.workspace {
+    left:75px;
+}
+
+.workspacesetting {
+    position: absolute;
+    bottom:20px;
+    right:20px;
+}
+
+.notearea, .fr-wrapper {
+    height:90vh;
+    border:none;
+
+}
+
+#editor, .fr-box.fr-basic, .fr-wrapper, .fr-toolbar, .fr-second-toolbar  {
+    border: none!important;
+    box-shadow:noneimportant;
+}
+
+.fr-counter {
+    display:none;
+}
+
+.fr-desktop .fr-command, .fr-toolbar .fr-command.fr-btn {
+    border-radius:50px!important;
+    border:none;
+}
+
+.fr-active {
+    background-color: #5F5BFF!important;
+    border-color: #5F5BFF!important;
+    color:#fff!important;
+}
+
+
+.fr-toolbar .fr-command.fr-btn.fr-active svg path {
+    fill:#fff;
+
+}
